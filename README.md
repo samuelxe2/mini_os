@@ -52,6 +52,13 @@ La gestión de memoria utiliza ahora el algoritmo **Buddy System**.
 python main.py
 ```
 
+## Requisitos de Visualización
+- `pip install matplotlib`
+- Colores:
+  - Verde: libres
+  - Azul: asignados a PID
+  - Rojo: bloqueados
+
 ## Extensión C++ (Opcional)
 - El módulo `mini_os_cpp` acelera la fusión de bloques libres (Buddy System) usando C++.
 - El simulador usa automáticamente este módulo si está disponible.
